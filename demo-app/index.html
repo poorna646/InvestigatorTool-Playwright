@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demo Login</title>
+</head>
+<body>
+  <h1>Demo Login</h1>
+
+  <input data-testid="username" placeholder="Username" />
+  <input data-testid="password" type="password" placeholder="Password" />
+  <button data-testid="login-button" onclick="login()">Log in</button>
+
+  <p data-testid="message"></p>
+
+  <script>
+    function login() {
+      const user = document.querySelector('[data-testid="username"]').value;
+      const pass = document.querySelector('[data-testid="password"]').value;
+      const msg = document.querySelector('[data-testid="message"]');
+
+      if (user === "student" && pass === "pass123") {
+        msg.textContent = "Welcome, student!";
+      } else {
+        msg.textContent = "Invalid credentials";
+      }
+    }
+  </script>
+</body>
+</html>

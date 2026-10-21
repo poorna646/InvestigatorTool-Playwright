@@ -1,0 +1,134 @@
+[
+  {
+    "testTitle": "valid login shows welcome message",
+    "file": "C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js",
+    "line": 3,
+    "status": "failed",
+    "retryNumber": 0,
+    "durationMs": 690,
+    "errorMessage": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/\nCall log:\n  - navigating to \"http://localhost:3000/\", waiting until \"load\"\n",
+    "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/\nCall log:\n  - navigating to \"http://localhost:3000/\", waiting until \"load\"\n\n    at C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js:4:14",
+    "errorLocation": {
+      "file": "C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js",
+      "column": 14,
+      "line": 4
+    },
+    "attachments": [
+      {
+        "name": "screenshot",
+        "type": "image/png",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-valid-login-shows-welcome-message-chromium\\test-failed-1.png"
+      },
+      {
+        "name": "error-context",
+        "type": "text/markdown",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-valid-login-shows-welcome-message-chromium\\error-context.md"
+      },
+      {
+        "name": "trace",
+        "type": "application/zip",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-valid-login-shows-welcome-message-chromium\\trace.zip"
+      }
+    ],
+    "timestamp": "2026-10-21T15:00:05.471Z"
+  },
+  {
+    "testTitle": "valid login shows welcome message",
+    "file": "C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js",
+    "line": 3,
+    "status": "failed",
+    "retryNumber": 1,
+    "durationMs": 373,
+    "errorMessage": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/\nCall log:\n  - navigating to \"http://localhost:3000/\", waiting until \"load\"\n",
+    "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/\nCall log:\n  - navigating to \"http://localhost:3000/\", waiting until \"load\"\n\n    at C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js:4:14",
+    "errorLocation": {
+      "file": "C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js",
+      "column": 14,
+      "line": 4
+    },
+    "attachments": [
+      {
+        "name": "screenshot",
+        "type": "image/png",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-valid-login-shows-welcome-message-chromium-retry1\\test-failed-1.png"
+      },
+      {
+        "name": "error-context",
+        "type": "text/markdown",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-valid-login-shows-welcome-message-chromium-retry1\\error-context.md"
+      },
+      {
+        "name": "trace",
+        "type": "application/zip",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-valid-login-shows-welcome-message-chromium-retry1\\trace.zip"
+      }
+    ],
+    "timestamp": "2026-10-21T15:00:06.841Z"
+  },
+  {
+    "testTitle": "wrong password shows error",
+    "file": "C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js",
+    "line": 11,
+    "status": "failed",
+    "retryNumber": 0,
+    "durationMs": 327,
+    "errorMessage": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/\nCall log:\n  - navigating to \"http://localhost:3000/\", waiting until \"load\"\n",
+    "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/\nCall log:\n  - navigating to \"http://localhost:3000/\", waiting until \"load\"\n\n    at C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js:12:14",
+    "errorLocation": {
+      "file": "C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js",
+      "column": 14,
+      "line": 12
+    },
+    "attachments": [
+      {
+        "name": "screenshot",
+        "type": "image/png",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-wrong-password-shows-error-chromium\\test-failed-1.png"
+      },
+      {
+        "name": "error-context",
+        "type": "text/markdown",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-wrong-password-shows-error-chromium\\error-context.md"
+      },
+      {
+        "name": "trace",
+        "type": "application/zip",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-wrong-password-shows-error-chromium\\trace.zip"
+      }
+    ],
+    "timestamp": "2026-10-21T15:00:08.107Z"
+  },
+  {
+    "testTitle": "wrong password shows error",
+    "file": "C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js",
+    "line": 11,
+    "status": "failed",
+    "retryNumber": 1,
+    "durationMs": 323,
+    "errorMessage": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/\nCall log:\n  - navigating to \"http://localhost:3000/\", waiting until \"load\"\n",
+    "stack": "Error: page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000/\nCall log:\n  - navigating to \"http://localhost:3000/\", waiting until \"load\"\n\n    at C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js:12:14",
+    "errorLocation": {
+      "file": "C:\\Users\\Admin\\Documents\\playwright\\tests\\login.spec.js",
+      "column": 14,
+      "line": 12
+    },
+    "attachments": [
+      {
+        "name": "screenshot",
+        "type": "image/png",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-wrong-password-shows-error-chromium-retry1\\test-failed-1.png"
+      },
+      {
+        "name": "error-context",
+        "type": "text/markdown",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-wrong-password-shows-error-chromium-retry1\\error-context.md"
+      },
+      {
+        "name": "trace",
+        "type": "application/zip",
+        "path": "C:\\Users\\Admin\\Documents\\playwright\\test-results\\login-wrong-password-shows-error-chromium-retry1\\trace.zip"
+      }
+    ],
+    "timestamp": "2026-10-21T15:00:09.252Z"
+  }
+]

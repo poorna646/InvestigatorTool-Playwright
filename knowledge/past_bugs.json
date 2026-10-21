@@ -1,0 +1,44 @@
+[
+  {
+    "id": "BUG-101",
+    "title": "Checkout test fails: button not found after UI refactor",
+    "label": "locator",
+    "error": "locator.click: Test timeout exceeded. waiting for getByTestId('checkout-button')",
+    "resolution": "Developers renamed data-testid from checkout-button to pay-button. Updated the test locator."
+  },
+  {
+    "id": "BUG-102",
+    "title": "All UI tests fail at start: connection refused",
+    "label": "environment",
+    "error": "page.goto: net::ERR_CONNECTION_REFUSED at http://localhost:3000",
+    "resolution": "Test server did not start in CI. Added a health check and waited for the server before running tests."
+  },
+  {
+    "id": "BUG-103",
+    "title": "Search results test fails randomly",
+    "label": "flaky",
+    "error": "expect(locator).toHaveCount(5) Expected 5 Received 0, passes on retry",
+    "resolution": "Test asserted before the API response arrived. Added a wait for the network response."
+  },
+  {
+    "id": "BUG-104",
+    "title": "Welcome message shows wrong user name",
+    "label": "app_bug",
+    "error": "expect(locator).toHaveText Expected: Welcome, student! Received: Welcome, undefined!",
+    "resolution": "Real application bug: the login handler did not store the username. Fixed in backend."
+  },
+  {
+    "id": "BUG-105",
+    "title": "Profile page test cannot find save button",
+    "label": "locator",
+    "error": "locator.click: Test timeout exceeded. waiting for getByRole('button', { name: 'Save' })",
+    "resolution": "Button text was changed to 'Save changes'. Updated the test to the new button name."
+  },
+  {
+    "id": "BUG-106",
+    "title": "API returns server error during test run",
+    "label": "environment",
+    "error": "expect(response.status()).toBe(200) Expected 200 Received 503",
+    "resolution": "Staging database was restarting during the nightly run. Rescheduled the job."
+  }
+]

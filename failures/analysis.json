@@ -1,0 +1,32 @@
+{
+  "valid login shows welcome message": {
+    "classification": "locator",
+    "confidence": 0.85,
+    "likely_cause": "The test could not find the element getByTestId('login-button'). The element may have been renamed or removed.",
+    "evidence": [
+      "Error says it was waiting for getByTestId('login-button')",
+      "Failure happened at login.spec.js:7",
+      "Failed on all 2 attempts"
+    ],
+    "debug_steps": [
+      "Search the app code for getByTestId('login-button'): was it renamed or removed?",
+      "Open the screenshot: is the element visible on the page?",
+      "Update the locator in the test, or ask developers to restore it"
+    ]
+  },
+  "wrong password shows error": {
+    "classification": "locator",
+    "confidence": 0.85,
+    "likely_cause": "The test could not find the element getByTestId('login-button'). The element may have been renamed or removed.",
+    "evidence": [
+      "Error says it was waiting for getByTestId('login-button')",
+      "Failure happened at login.spec.js:15",
+      "Failed on all 2 attempts"
+    ],
+    "debug_steps": [
+      "Search the app code for getByTestId('login-button'): was it renamed or removed?",
+      "Open the screenshot: is the element visible on the page?",
+      "Update the locator in the test, or ask developers to restore it"
+    ]
+  }
+}
